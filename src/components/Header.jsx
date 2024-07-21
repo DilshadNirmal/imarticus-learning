@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import imarticusLogo from "/imarticusLogo.svg";
 import whatsappIcon from "/whatsappicon.svg";
 
@@ -10,7 +11,9 @@ const Header = () => {
       <div className="flex justify-center items-center gap-2">
         <ul className="flex justify-evenly items-center gap-3">
           {listItems.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              <NavLink to={item} >{item}</NavLink>
+              </li>
           ))}
         </ul>
         <button>
