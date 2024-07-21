@@ -1,5 +1,5 @@
-import imarticusLogo from "../../public/imarticusLogo.svg";
-import whatsappIcon from "../../public/whatsappicon.svg";
+import imarticusLogo from "/imarticusLogo.svg";
+import whatsappIcon from "/whatsappicon.svg";
 
 const Header = () => {
   const listItems = ["All Programs", "Career Services", "Discover"];

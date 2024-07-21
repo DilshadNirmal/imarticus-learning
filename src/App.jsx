@@ -1,16 +1,11 @@
-import About from "./components/About"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import WebView from "./components/WebView"
+import Home from "./pages/Home"
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Hero />
-      <WebView />
-      <About />
+      <Home />
     </>
   )
 }
