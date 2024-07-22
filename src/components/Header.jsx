@@ -16,10 +16,7 @@ const Header = () => {
               </li>
           ))}
         </ul>
-        <button>
-          {/* todo: want to improve with a button component */}
-          todo
-        </button>
+        <NavLink to="/login" className="px-3 py-1 bg-fuchsia-500 text-white rounded mr-3">login</NavLink>
         <img src={whatsappIcon} alt="whatsapp icon" className="w-5" />
       </div>
     </header>
