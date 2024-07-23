@@ -45,7 +45,7 @@ const Hero = () => {
               ))}
             </div>
           </div>
-          <button>todo</button>
+          <button className="bg-emerald-900 py-2 px-5 rounded text-white font-semibold mt-5">Enquire now</button>
         </div>
         <div>
           <img src={ImarticusHero} alt="" className="w-96" />
