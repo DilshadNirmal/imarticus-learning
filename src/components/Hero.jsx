@@ -45,7 +45,7 @@ const Hero = () => {
               ))}
             </div>
           </div>
-          <button>todo</button>
+          <button></button>
         </div>
         <div>
           <img src={ImarticusHero} alt="" className="w-96" />
