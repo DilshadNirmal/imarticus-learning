@@ -1,7 +1,13 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 const AllPrograms = () => {
     
     return (
-        <div>page yet to create</div>
+        <>
+        <Header />
+        <Footer />
+        </>
     )
 }
 
